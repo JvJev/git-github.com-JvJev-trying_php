@@ -8,5 +8,7 @@ $countryFlags = [
 foreach ($countryFlags as $countryCode => $flagUrl) {
     echo "<img src='$flagUrl' alt='Flag of $countryCode'>\n";
 }
+
+echo "It's working";
 ?>
 
